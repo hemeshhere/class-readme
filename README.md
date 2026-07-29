@@ -75,7 +75,15 @@ High-traffic e-commerce?
 
 Used for secure login (SSH). Public key stored in AWS. Private key stays
 with you.
+Acts like a firewall.
 
+Controls: - Which ports are open - Who can access the instance
+
+Example: - Port 22 → SSH - Port 80 → HTTP
+
+------------------------------------------------------------------------
+💡  Tip: Answers: A=t3/t4g  B=p3/g5  C=r6i. Spot bad for: production DBs, long jobs that can't checkpoint
+# 🔄 Part 3 -- EC2 L
 Without key → no login.
 
 ------------------------------------------------------------------------
